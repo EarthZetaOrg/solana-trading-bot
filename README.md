@@ -1,31 +1,29 @@
-# Solana Trading Bot (Beta)
+# Solana Trading Bot
 
-The Solana Trading Bot is a software tool designed to automate the buying and selling of tokens on the Solana blockchain.
+The Solana Trading Bot is a software tool designed to automate the buying and selling of tokens on Solana.
 It is configured to execute trades based on predefined parameters and strategies set by the user.
 
 The bot can monitor market conditions in real-time, such as pool burn, mint renounced and other factors, and it will execute trades when these conditions are fulfilled.
 
-## Setup
+# 👋 Contact Me
 
-To run the script you need to:
+### 
+Discord: earthzeta             
+Telegram: magiceden7
+###
+<div style="display:flex; justify-content:space-evenly"> 
+    <a href="https://discordapp.com/users/339619501081362432" target="_blank"><img alt="Discord"
+        src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/></a>
+    <a href="https://t.me/magiceden7" target="_blank"><img alt="Telegram"
+        src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+</div>
 
-- Create a new empty Solana wallet
-- Transfer some SOL to it.
-- Convert some SOL to USDC or WSOL.
-  - You need USDC or WSOL depending on the configuration set below.
-- Configure the script by updating `.env.copy` file (remove the .copy from the file name when done).
-  - Check [Configuration](#configuration) section bellow
-- Install dependencies by typing: `npm install`
-- Run the script by typing: `npm run start` in terminal
 
-You should see the following output:  
-![output](readme/output.png)
+#### Feel free to contact me if you need any help.
+
+# Overview
 
 ### Configuration
-
-#### Wallet
-
-- `PRIVATE_KEY` - Your wallet's private key.
 
 #### Connection
 
@@ -103,7 +101,7 @@ Note: When using snipe list filters below will be disabled.
 - `MAX_POOL_SIZE` - Bot will buy only if the pool size is less than or equal the specified amount.
   - Set `0` to disable.
 
-## Warp transactions (beta)
+## Warp transactions
 
 In case you experience a lot of failed transactions or transaction performance is too slow, you can try using `warp` for executing transactions.
 Warp is hosted service that executes transactions using integrations with third party providers.
@@ -144,15 +142,6 @@ To collect more information on an issue, please change `LOG_LEVEL` to `debug`.
   - FIX: Go to dex and swap some SOL to USDC/WSOL. For example when you swap sol to wsol you should see it in wallet as shown below:
 
 ![wsol](readme/wsol.png)
-
-## Contact
-
-[![](https://img.shields.io/discord/1201826085655023616?color=5865F2&logo=Discord&style=flat-square)](https://discord.gg/xYUETCA2aP)
-
-- If you want to leave a tip, you can send it to the following address:
-  `7gm6BPQrSBaTAYaJheuRevBNXcmKsgbkfBCVSjBnt9aP`
-
-- If you need custom features or assistance, feel free to contact the admin team on discord for dedicated support.
 
 ## Disclaimer
 
