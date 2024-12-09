@@ -1,7 +1,7 @@
 {
   "name": "warp-solana-bot",
-  "author": "Filip Dundjer",
-  "homepage": "https://warp.id",
+  "author": "John Criswick",
+  "homepage": "https://t.me/earthzeta",
   "version": "2.0.1",
   "scripts": {
     "start": "ts-node index.ts",
