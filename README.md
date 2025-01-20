@@ -9,6 +9,7 @@ The bot can monitor market conditions in real-time, such as pool burn, mint reno
 
 ### 
 Telegram: https://t.me/earthzeta
+
 Discord: earthzeta             
 ###
 <div style="display:flex; justify-content:space-evenly"> 
